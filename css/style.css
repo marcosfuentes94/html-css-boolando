@@ -80,13 +80,13 @@ MAIN
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-basis: calc(33.33% - 10px);
 }
 
 .my-row-1 img {
   margin: 10px;
   max-width: 48%;
   height: auto;
-  flex-basis: calc(33.33% - 20px);
 }
 
 .image-container {
@@ -148,6 +148,9 @@ MAIN
       top: 400px;
       font-weight: bold;
       font-size: 12px;
+      flex-basis: calc(33.33% - 20px);
+
+      
       
  }
 
