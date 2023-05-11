@@ -71,8 +71,20 @@ RESET
       FINE HEADER
       */
 
- /* DEBUG */
-.debug{
+/* 
 
+MAIN
 
+*/
+.my-row-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.my-row-1 img {
+  margin: 10px;
+  max-width: 30%;
+  height: auto;
+  flex-basis: calc(33.33% - 20px);
 }
