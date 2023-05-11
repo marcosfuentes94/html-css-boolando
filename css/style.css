@@ -84,7 +84,118 @@ MAIN
 
 .my-row-1 img {
   margin: 10px;
-  max-width: 30%;
+  max-width: 48%;
   height: auto;
   flex-basis: calc(33.33% - 20px);
 }
+
+.image-container {
+   position: relative;
+ }
+ 
+ .text-container {
+   position: absolute;
+   top: 440px;
+   bottom: 0;
+   left: 10px;
+   right: 0;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+ }
+ 
+.text-container p {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
+.text-container p:first-child {
+  font-size: 9px;
+  font-weight: normal;
+}
+
+.red-price{
+
+   color: red;
+   text-decoration: none;
+
+}
+ .black-price{
+
+   text-decoration: line-through;
+
+ }
+
+ .image-container {
+   position: relative;
+ }
+ 
+ .image-container img {
+   display: block;
+   width: 100%;
+   height: auto;
+ }
+ 
+ .image-container .icon {
+      background-color: red;
+      color: white;
+      padding: 5px;
+      position: absolute;
+      right: 611px;
+      top: 400px;
+      font-weight: bold;
+      font-size: 12px;
+      
+ }
+
+ .icon-sostenibilità{
+
+      background-color: green;
+      color: white;
+      padding: 5px;
+      position: absolute;
+      right: 525px;
+      top: 400px;
+      font-weight: bold;
+      font-size: 12px;
+ }
+
+ .image-container .hover-img {
+   display: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 90%;
+   opacity: 0;
+ }
+ 
+ .image-container:hover img {
+   opacity: 0;
+ }
+ 
+ .image-container:hover .hover-img {
+   display: block;
+   opacity: 1;
+ }
+
+ .icon-heart{
+
+   background-color: white;
+   color: black;
+   padding: 10px;
+   position: absolute;
+   right: 331px;
+   top: 20px;
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 0.5em;
+
+ }
+ .hover-heart:hover {
+   color: red;
+ }
+ 
